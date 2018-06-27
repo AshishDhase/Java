@@ -1,0 +1,13 @@
+127.0.0.1 - - [21/Mar/2018:21:36:01 +0530] "GET / HTTP/1.1" 404 1070
+0:0:0:0:0:0:0:1 - - [21/Mar/2018:21:36:02 +0530] "GET /myProject/TestServlet HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [21/Mar/2018:21:42:33 +0530] "GET /myProject/TestServlet HTTP/1.1" 200 -
+127.0.0.1 - - [21/Mar/2018:21:43:07 +0530] "GET / HTTP/1.1" 404 1070
+0:0:0:0:0:0:0:1 - - [21/Mar/2018:21:43:10 +0530] "GET /myProject/TestServlet HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [21/Mar/2018:21:52:28 +0530] "GET /myProject/TestServlet HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [21/Mar/2018:21:53:03 +0530] "GET /myProject/TestServlet HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [21/Mar/2018:21:54:26 +0530] "GET /myProject/TestServlet HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [21/Mar/2018:22:02:53 +0530] "GET /myProject/TestServlet HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [21/Mar/2018:22:10:49 +0530] "GET /myProject/TestServlet HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [21/Mar/2018:22:14:04 +0530] "GET /myProject/TestServlet HTTP/1.1" 200 -
+127.0.0.1 - - [21/Mar/2018:22:14:45 +0530] "GET / HTTP/1.1" 404 1070
+0:0:0:0:0:0:0:1 - - [21/Mar/2018:22:14:47 +0530] "GET /myProject/TestServlet HTTP/1.1" 200 -

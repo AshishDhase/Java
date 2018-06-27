@@ -1,0 +1,91 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.project</groupId>
+  <artifactId>BeProject</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+
+  <name>BeProject</name>
+  <url>http://maven.apache.org</url> 
+
+  <dependencies>
+   
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <version>2.4</version>
+      <scope>provided</scope>
+    </dependency>
+   
+    <dependency>
+      <groupId>javax.servlet.jsp</groupId>
+      <artifactId>jsp-api</artifactId>
+      <version>2.1</version>
+      <scope>provided</scope>
+    </dependency>
+   
+ 	
+  <!-- Add the jstl-api dependency explicitly - otherwise jstl-api 1.2 is added -->
+<dependency>
+    <groupId>javax.servlet.jsp.jstl</groupId>
+    <artifactId>javax.servlet.jsp.jstl-api</artifactId>
+    <version>1.2.1</version>
+</dependency>
+<dependency>
+    <groupId>org.glassfish.web</groupId>
+    <artifactId>javax.servlet.jsp.jstl</artifactId>
+    <version>1.2.1</version>
+    <exclusions>
+         <!-- jstl-api was adding selvlet-api 2.5 and jsp-api-->
+        <exclusion>
+            <artifactId>jstl-api</artifactId>
+            <groupId>javax.servlet.jsp.jstl</groupId>
+        </exclusion>
+    </exclusions>
+</dependency>
+   
+    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+	<dependency>
+    	<groupId>mysql</groupId>
+    	<artifactId>mysql-connector-java</artifactId>
+    	<version>6.0.6</version>
+	</dependency>
+    
+     <!-- AYLIEN API Dependency -->
+    <dependency>
+  		<groupId>com.aylien.textapi</groupId>
+  		<artifactId>client</artifactId>
+  		<version>0.6.0</version>
+	</dependency>
+	
+	<!-- IBM WATSON dependency -->
+	<dependency>
+  		<groupId>com.ibm.watson.developer_cloud</groupId>
+  		<artifactId>java-sdk</artifactId>
+ 		 <version>5.1.1</version>
+	</dependency>
+	
+	<dependency>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    <version>1.1.1</version>
+</dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.tomcat.maven</groupId>
+        <artifactId>tomcat8.5-maven-plugin</artifactId>
+        <version>8.5</version>
+    <!--     <configuration>
+          <source>1.4</source>
+          <target>1.4</target>
+        </configuration>
+     -->
+      </plugin>
+    </plugins>
+  </build>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.aylien.textapi.parameters.ExtractParams"/>
+<fullyQualifiedTypeName name="java.net.MalformedURLException"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="javax.sql.DataSource"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="java.sql.Statement"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="com.project.model.Article"/>
+<fullyQualifiedTypeName name="com.aylien.textapi.responses.Article"/>
+<fullyQualifiedTypeName name="com.project.dao.ArticleDao"/>
+<fullyQualifiedTypeName name="com.project.model.SentimentExtractor"/>
+<fullyQualifiedTypeName name="com.aylien.textapi.responses.Sentiment"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.natural_language_understanding.v1.NaturalLanguageUnderstanding"/>
+<fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.natural_language_understanding.v1.model.EntitiesOptions"/>
+<fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.natural_language_understanding.v1.model.SentimentOptions"/>
+<fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.natural_language_understanding.v1.model.Features"/>
+<fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.natural_language_understanding.v1.model.AnalyzeOptions"/>
+<fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.natural_language_understanding.v1.model.AnalysisResults"/>
+<fullyQualifiedTypeName name="com.project.graph.GraphValues"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.project.model.GraphBase"/>
+<fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="org.json.simple.JSONArray"/>
+</qualifiedTypeNameHistroy>

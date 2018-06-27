@@ -1,0 +1,20 @@
+<html>
+<head><title>Confirmation</title></head>
+<body>
+<%
+	// read form data
+	String favLang = request.getParameter("favoriteLanguage");
+	
+	// create a new cookie
+	Cookie theCookie = new Cookie("myApp.favoriteLanguage", favLang);
+	
+	// set the life span.. total number of seconds
+	theCookie.setMaxAge(60*60*24*365); // <-- for a year
+	
+	// send the cookie to the browser 
+	response.addCookie(theCookie);
+	
+%>
+</body>
+
+</html>

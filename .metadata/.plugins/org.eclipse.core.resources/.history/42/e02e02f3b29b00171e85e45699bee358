@@ -1,0 +1,13 @@
+<html>
+<head><title>Confirmation</title></head>
+<body>
+<%
+	// read form data
+	String favLang = request.getParameter("favoriteLanguage");
+	
+	// create a new cookie
+	C
+%>
+</body>
+
+</html>
